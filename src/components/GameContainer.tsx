@@ -11,22 +11,20 @@ const GameWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  width: 100%;
+  gap: 0.5rem;
+  width: 100vw;
   height: 100vh;
-  max-width: 800px;
-  padding: 1rem;
+  margin: 0;
+  padding: 0;
   position: relative;
 
   @media (max-width: 768px) {
-    padding: 0.5rem;
-    gap: 0.5rem;
+    gap: 0.25rem;
     height: 100vh;
   }
 
   @media (max-height: 700px) {
-    gap: 0.25rem;
-    padding: 0.25rem;
+    gap: 0.125rem;
   }
 `
 
