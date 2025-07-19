@@ -1,0 +1,21 @@
+phaser.js:45368  Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'sys')
+    at EmojiSprite.setTexture (phaser.js:45368:35)
+    at EmojiSprite.setEmojiType (EmojiSprite.ts:117:14)
+    at GameScene.animateGravityAndSpawn (GameScene.ts:796:28)
+    at GameScene.processMatchesAndCascades (GameScene.ts:758:24)
+    at async GameScene.attemptSwap (GameScene.ts:613:9)
+setTexture @ phaser.js:45368
+setEmojiType @ EmojiSprite.ts:117
+animateGravityAndSpawn @ GameScene.ts:796
+processMatchesAndCascades @ GameScene.ts:758
+await in processMatchesAndCascades
+attemptSwap @ GameScene.ts:613
+await in attemptSwap
+handleSwipeGesture @ GameScene.ts:422
+handleTouchMove @ GameScene.ts:280
+emit @ phaser.js:199
+processMoveEvents @ phaser.js:105643
+update @ phaser.js:104833
+updateInputPlugins @ phaser.js:103486
+onTouchMove @ phaser.js:103589
+onTouchMove @ phaser.js:117877
